@@ -1,0 +1,29 @@
+{
+  "version": "3.0.1-*",
+
+  "dependencies": {
+    "Microsoft.Extensions.Configuration": "3.0.1",
+    "Microsoft.Extensions.Options": "3.0.1",
+    "NETStandard.Library": "1.6.1",
+    "Microsoft.Extensions.Logging": "3.0.1",
+    "Microsoft.Extensions.Logging.Console": "3.0.1",
+    "Microsoft.Extensions.Logging.Debug": "3.0.1",
+    "Microsoft.Extensions.Logging.Abstractions": "3.0.1",
+    "Microsoft.Extensions.Configuration.Abstractions": "3.0.1",
+    "Microsoft.Extensions.Configuration.FileExtensions": "3.0.1",
+    "Microsoft.Extensions.Configuration.Binder": "3.0.1",
+    "System.Data.Odbc": "4.6.0",
+    "Newtonsoft.Json": "12.0.3"
+  },
+
+  "frameworks": {
+    "net452": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0",
+        "System.Runtime.Serialization": "4.0.0.0",
+        "System.Xml": "4.0.0.0",
+        "System.Data.DataSetExtensions": "4.0.0.0"
+      }
+    }
+  }
+}

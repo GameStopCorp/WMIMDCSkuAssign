@@ -1,0 +1,65 @@
+{
+  "dependencies": {
+    "Microsoft.ApplicationInsights.AspNetCore": "2.8.2",
+    "Microsoft.AspNetCore.Mvc": "2.2.0",
+    "Microsoft.AspNetCore.Routing": "2.2.2",
+    "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "3.0.1",
+    "Microsoft.Extensions.Configuration.FileExtensions": "3.0.1",
+    "Microsoft.Extensions.Configuration.Json": "3.0.1",
+    "Microsoft.Extensions.Logging": "3.0.1",
+    "Microsoft.Extensions.Logging.Console": "3.0.1",
+    "Microsoft.Extensions.Logging.Debug": "3.0.1",
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "3.0.1",
+    "Swagger": "1.0.0",
+    "Swashbuckle": "6.0.0-beta902",
+    "Serilog.Extensions.Logging": "3.0.1",
+    "Serilog.Sinks.RollingFile": "3.3.0",
+    "Serilog.Sinks.Literate": "3.0.0",
+    "Serilog.Settings.Configuration": "3.1.0",
+    "SupplyChain.Svc.MSDCSKUAssign.Repositories": "2.0.0-*",
+    "SupplyChain.Svc.MSDCSKUAssign.Configurations": "2.0.0-*",
+    "SupplyChain.Svc.MSDCSKUAssign.Contracts": "2.0.0-*"
+  },
+
+  "tools": {
+    "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.0.0-preview2-final"
+  },
+
+  "frameworks": {
+    "net452": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0",
+        "System.Runtime.Serialization": "4.0.0.0",
+        "System.Xml": "4.0.0.0",
+        "System.Data.DataSetExtensions": "4.0.0.0"
+      }
+    }
+  },
+
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+   
+  },
+
+   "runtimeOptions": {
+    "configProperties": {
+      "System.GC.Server": true
+    }
+  },
+
+  "publishOptions": {
+    "include": [
+      "wwwroot",
+      "**/*.cshtml",
+      "appsettings.json",
+      "web.config"
+    ]
+  },
+
+  "scripts": {
+    "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
+  }
+}

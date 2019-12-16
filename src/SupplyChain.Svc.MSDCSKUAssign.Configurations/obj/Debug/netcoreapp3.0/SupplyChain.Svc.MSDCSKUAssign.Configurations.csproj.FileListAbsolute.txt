@@ -1,0 +1,8 @@
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Configurations\bin\Debug\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Configurations.deps.json
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Configurations\bin\Debug\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Configurations.dll
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Configurations\bin\Debug\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Configurations.pdb
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Configurations\obj\Debug\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Configurations.AssemblyInfoInputs.cache
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Configurations\obj\Debug\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Configurations.AssemblyInfo.cs
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Configurations\obj\Debug\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Configurations.dll
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Configurations\obj\Debug\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Configurations.pdb
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Configurations\obj\Debug\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Configurations.csprojAssemblyReference.cache

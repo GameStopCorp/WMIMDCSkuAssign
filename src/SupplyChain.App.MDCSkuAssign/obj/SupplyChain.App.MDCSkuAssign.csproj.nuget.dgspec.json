@@ -1,0 +1,603 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.App.MDCSkuAssign\\SupplyChain.App.MDCSkuAssign.csproj": {}
+  },
+  "projects": {
+    "C:\\Repo\\SupplyChain.Utility.DCAutoMailer\\src\\SupplyChain.DCAutoMailer\\SupplyChain.DCAutoMailer.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\SupplyChain.Utility.DCAutoMailer\\src\\SupplyChain.DCAutoMailer\\SupplyChain.DCAutoMailer.csproj",
+        "projectName": "SupplyChain.DCAutoMailer",
+        "projectPath": "C:\\Repo\\SupplyChain.Utility.DCAutoMailer\\src\\SupplyChain.DCAutoMailer\\SupplyChain.DCAutoMailer.csproj",
+        "packagesPath": "C:\\Users\\v_seswarpp\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\SupplyChain.Utility.DCAutoMailer\\src\\SupplyChain.DCAutoMailer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v_seswarpp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.App.MDCSkuAssign\\SupplyChain.App.MDCSkuAssign.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.App.MDCSkuAssign\\SupplyChain.App.MDCSkuAssign.csproj",
+        "projectName": "SupplyChain.App.MDCSkuAssign",
+        "projectPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.App.MDCSkuAssign\\SupplyChain.App.MDCSkuAssign.csproj",
+        "packagesPath": "C:\\Users\\v_seswarpp\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.App.MDCSkuAssign\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v_seswarpp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Repo\\SupplyChain.Utility.DCAutoMailer\\src\\SupplyChain.DCAutoMailer\\SupplyChain.DCAutoMailer.csproj": {
+                "projectPath": "C:\\Repo\\SupplyChain.Utility.DCAutoMailer\\src\\SupplyChain.DCAutoMailer\\SupplyChain.DCAutoMailer.csproj"
+              },
+              "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign\\SupplyChain.Svc.MSDCSKUAssign.csproj": {
+                "projectPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign\\SupplyChain.Svc.MSDCSKUAssign.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[12.2.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Literate": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "System.Data.Odbc": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Threading": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Configurations\\SupplyChain.Svc.MSDCSKUAssign.Configurations.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Configurations\\SupplyChain.Svc.MSDCSKUAssign.Configurations.csproj",
+        "projectName": "SupplyChain.Svc.MSDCSKUAssign.Configurations",
+        "projectPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Configurations\\SupplyChain.Svc.MSDCSKUAssign.Configurations.csproj",
+        "packagesPath": "C:\\Users\\v_seswarpp\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Configurations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v_seswarpp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Contracts\\SupplyChain.Svc.MSDCSKUAssign.Contracts.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Contracts\\SupplyChain.Svc.MSDCSKUAssign.Contracts.csproj",
+        "projectName": "SupplyChain.Svc.MSDCSKUAssign.Contracts",
+        "projectPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Contracts\\SupplyChain.Svc.MSDCSKUAssign.Contracts.csproj",
+        "packagesPath": "C:\\Users\\v_seswarpp\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v_seswarpp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Repositories\\SupplyChain.Svc.MSDCSKUAssign.Repositories.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Repositories\\SupplyChain.Svc.MSDCSKUAssign.Repositories.csproj",
+        "projectName": "SupplyChain.Svc.MSDCSKUAssign.Repositories",
+        "projectPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Repositories\\SupplyChain.Svc.MSDCSKUAssign.Repositories.csproj",
+        "packagesPath": "C:\\Users\\v_seswarpp\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v_seswarpp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Contracts\\SupplyChain.Svc.MSDCSKUAssign.Contracts.csproj": {
+                "projectPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Contracts\\SupplyChain.Svc.MSDCSKUAssign.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "System.Data.Odbc": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign\\SupplyChain.Svc.MSDCSKUAssign.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign\\SupplyChain.Svc.MSDCSKUAssign.csproj",
+        "projectName": "SupplyChain.Svc.MSDCSKUAssign",
+        "projectPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign\\SupplyChain.Svc.MSDCSKUAssign.csproj",
+        "packagesPath": "C:\\Users\\v_seswarpp\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v_seswarpp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Configurations\\SupplyChain.Svc.MSDCSKUAssign.Configurations.csproj": {
+                "projectPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Configurations\\SupplyChain.Svc.MSDCSKUAssign.Configurations.csproj"
+              },
+              "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Contracts\\SupplyChain.Svc.MSDCSKUAssign.Contracts.csproj": {
+                "projectPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Contracts\\SupplyChain.Svc.MSDCSKUAssign.Contracts.csproj"
+              },
+              "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Repositories\\SupplyChain.Svc.MSDCSKUAssign.Repositories.csproj": {
+                "projectPath": "C:\\Repo\\WMIMDCSkuAssign\\src\\SupplyChain.Svc.MSDCSKUAssign.Repositories\\SupplyChain.Svc.MSDCSKUAssign.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Literate": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Swagger": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "version": "3.0.1-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.Configuration": "3.0.1",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "3.0.1",
+    "Microsoft.Extensions.Configuration.FileExtensions": "3.0.1",
+    "Microsoft.Extensions.Configuration.Json": "3.0.1",
+    "Microsoft.Extensions.DependencyInjection": "3.0.1",
+    "Microsoft.Extensions.Options": "3.0.1",
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "3.0.1",
+    "Microsoft.Extensions.Logging": "3.0.1",
+    "Microsoft.Extensions.Logging.Console": "3.0.1",
+    "Microsoft.Extensions.Logging.Debug": "3.0.1",
+    "Microsoft.AspNetCore.Http": "2.2.2",
+    "System.Net.Http": "4.3.4",
+    "Serilog.Extensions.Logging": "3.0.1",
+    "Serilog.Settings.Configuration": "3.1.0",
+    "Serilog.Sinks.RollingFile": "3.3.0",
+    "Serilog.Sinks.Literate": "3.0.0",
+    "CsvHelper": "12.2.1",
+    "System.Data.SqlClient": "4.7.0",
+    "System.ServiceModel.Http": "4.6.0",
+    "system.servicemodel.primitives": "4.6.0",
+    "System.Threading": "4.3.0",
+    "System.Data.Odbc": "4.6.0",
+    "SupplyChain.DCAutoMailer": "2.0.0-*",
+    "SupplyChain.Svc.MSDCSKUAssign": "2.0.0-*" 
+  },
+
+  "frameworks": {
+    "net452": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0",
+        "System.Runtime.Serialization": "4.0.0.0",
+        "System.Xml": "4.0.0.0",
+        "System.ServiceModel": "4.0.0.0"
+      }
+    }
+  }
+  }

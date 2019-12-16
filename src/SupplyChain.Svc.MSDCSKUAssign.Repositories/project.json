@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.Extensions.Configuration.Abstractions": "3.0.1",
+    "Microsoft.Extensions.Configuration.Binder": "3.0.1",
+    "Microsoft.Extensions.Logging.Abstractions": "3.0.1",
+    "Microsoft.Extensions.Options": "3.0.1",
+    "NETStandard.Library": "1.6.0",
+    "System.Data.Odbc": "4.6.0",
+    "System.Data.SqlClient": "4.7.0",
+    "System.ServiceModel.Http": "4.6.0",
+    "System.ServiceModel.Primitives": "4.6.0",
+    "SupplyChain.Svc.MSDCSKUAssign.Contracts": "2.0.0-*"
+  },
+
+  "frameworks": {
+    "net452": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0",
+        "System.Runtime.Serialization": "4.0.0.0",
+        "System.Xml": "4.0.0.0",
+        "System.Data.DataSetExtensions": "4.0.0.0",
+        "System.ServiceModel": "4.0.0.0"
+      }
+    }
+  }
+}

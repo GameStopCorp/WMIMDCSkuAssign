@@ -1,0 +1,8 @@
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Contracts\bin\Release\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Contracts.deps.json
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Contracts\bin\Release\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Contracts.dll
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Contracts\bin\Release\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Contracts.pdb
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Contracts\obj\Release\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Contracts.csprojAssemblyReference.cache
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Contracts\obj\Release\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Contracts.AssemblyInfoInputs.cache
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Contracts\obj\Release\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Contracts.AssemblyInfo.cs
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Contracts\obj\Release\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Contracts.dll
+C:\Repo\WMIMDCSkuAssign\src\SupplyChain.Svc.MSDCSKUAssign.Contracts\obj\Release\netcoreapp3.0\SupplyChain.Svc.MSDCSKUAssign.Contracts.pdb

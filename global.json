@@ -1,0 +1,6 @@
+{
+  "projects": [ "src", "test", "../SupplyChain.Utility.DCAutoMailer/src" ],
+  "sdk": {
+    "version": "3.0.101"
+  }
+}
