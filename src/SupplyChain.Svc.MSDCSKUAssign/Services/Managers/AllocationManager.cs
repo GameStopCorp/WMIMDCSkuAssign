@@ -70,7 +70,7 @@ namespace SupplyChain.Svc.MSDCSKUAssign.Services.Managers
             LogPerformance();
             if (_isPerformanceTestEnabled)
             {
-                contracts = _allocationRepository.GetContractsByAllocNum(9806).OrderByDescending(a => a.Quantity).ToList();
+                contracts = _allocationRepository.GetContractsByAllocNum(allocationNumber).OrderByDescending(a => a.Quantity).ToList();
                 LogPerformance();
             }
 
@@ -171,8 +171,8 @@ namespace SupplyChain.Svc.MSDCSKUAssign.Services.Managers
             {
                 var currentDate = DateTime.Now.Date.ToString("yyyyMMdd");
                 var searchPattern = $"{_config.GetValue<string>("StoreAllocationFilePrefix")}{currentDate}*";
-                //var files = searchDirectory.GetFiles(searchPattern);
-                var files = searchDirectory.GetFiles("wmistoreallocation20191204*");
+                var files = searchDirectory.GetFiles(searchPattern);
+                //var files = searchDirectory.GetFiles("wmistoreallocation20191204*");
 
 
                 for (int i = 0; i < files.Length; i++)

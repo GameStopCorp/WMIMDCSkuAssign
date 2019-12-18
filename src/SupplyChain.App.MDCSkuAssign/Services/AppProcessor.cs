@@ -243,12 +243,12 @@ namespace SupplyChain.App.MDCSkuAssign.Services
 
                 body.AppendLine(String.Format("{0}{1}{2}", "Time Orders Available:", '\t', DateTime.Now.ToShortTimeString()));
 
-                //var isEmailSent = _email.SendMail(new DCAutoMailer.Models.SendModel
-                //{
-                //    Body = body.ToString(),
-                //    To = whse == "LOU" ? _options.Value.LOURecipient : _options.Value.GV1Recipient,
-                //    Subject = $"Multi DC Store Allocation Summary Report {currentDate}",
-                //});
+                var isEmailSent = _email.SendMail(new DCAutoMailer.Models.SendModel
+                {
+                    Body = body.ToString(),
+                    To = whse == "LOU" ? _options.Value.LOURecipient : _options.Value.GV1Recipient,
+                    Subject = $"Multi DC Store Allocation Summary Report {currentDate}",
+                });
 
                 _logger.LogInformation($"Allocation e-mail sent for {whse}");
             }

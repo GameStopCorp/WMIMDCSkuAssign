@@ -77,13 +77,13 @@ namespace SupplyChain.App.MDCSkuAssign.Services
                         tntValue = tnt?.TimeInTransit;
                         var picklineNum = _options.PickLineSeqNum + (i + 1);
 
-                        //allocation.isProcessed = _db.AddDetail(allocation, whse, batchNumber, picklineNum);
+                        allocation.isProcessed = _db.AddDetail(allocation, whse, batchNumber, picklineNum);
                         _logger.LogInformation($"Pick ticket created for allocation number: {allocation.AllocNum} and SKU: {allocation.Sku} for store {storeAllocation.Key}.");
                     }
 
                     var firstAllocation = storeAllocation.Value.FirstOrDefault();
 
-                   // _db.AddHeader(firstAllocation, whse, tntValue.Value, batchNumber, estWeight);
+                   _db.AddHeader(firstAllocation, whse, tntValue.Value, batchNumber, estWeight);
                 }
 
             }

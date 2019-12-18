@@ -37,7 +37,6 @@ namespace SupplyChain.App.MDCSkuAssign.Data
             //var endpoint = _options.PervasiveSecEndpoint;
 
             //var wsBinding = new System.ServiceModel.WSHttpBinding();
-            ////var bscBinding = new System.ServiceModel.NetTcpBinding();
             //var wsEndpoint = new System.ServiceModel.EndpointAddress(endpoint);
 
             //var serviceChannelFactory = new System.ServiceModel.ChannelFactory<ISecurityService>(wsBinding, wsEndpoint);

@@ -30,8 +30,6 @@ namespace SupplyChain.Svc.MSDCSKUAssign.Repositories.Factories
         {
             _config = config;
             _connectionString = _config.GetValue<string>(connectionName).Replace("999",_config.GetValue<string>("ConnectionTimeout"));
-            if (connectionName == "SkuConnectionString")
-                _connectionString = "Data Source=GV1HQQDB50SQL01.testgs.pvt\\INST01;Initial Catalog=DCSystems;Integrated Security=True";
 
             CreateConnection();
         }

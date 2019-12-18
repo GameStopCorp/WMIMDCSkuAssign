@@ -42,19 +42,19 @@ namespace SupplyChain.App.MDCSkuAssign.Services
                 {
                     _logger.LogInformation($"Starting distro service queue for allocation number: {allocation.AllocNum} and SKU: {allocation.Sku}.");
 
-                    //var previousRecords = _db.HasPreviousRecord(allocation);
+                    var previousRecords = _db.HasPreviousRecord(allocation);
 
-                    //if (previousRecords)
-                    //{
-                    //    _logger.LogWarning($"Found duplicate insert on restart allocnum/store/sku:  {allocation.AllocNum} /{ allocation.Store} /{allocation.Sku}");
+                    if (previousRecords)
+                    {
+                        _logger.LogWarning($"Found duplicate insert on restart allocnum/store/sku:  {allocation.AllocNum} /{ allocation.Store} /{allocation.Sku}");
 
-                    //    //skip since it's already in there.
-                    //    allocation.isProcessed = true;
-                    //}
-                    //else
-                    //{
-                    //    allocation.isProcessed = _db.AddDistro(allocation, whse);
-                    //}
+                        //skip since it's already in there.
+                        allocation.isProcessed = true;
+                    }
+                    else
+                    {
+                        allocation.isProcessed = _db.AddDistro(allocation, whse);
+                    }
 
                     _logger.LogInformation($"Distro created for allocation number: {allocation.AllocNum} and SKU: {allocation.Sku}.");
                 }

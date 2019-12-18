@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "SupplyChain.App.MDCSkuAssign/1.0.0": {
+      "SupplyChain.App.MDCSkuAssign/2.0.0": {
         "dependencies": {
           "CsvHelper": "12.2.1",
           "Microsoft.AspNetCore.Http": "2.2.2",
@@ -2567,7 +2567,7 @@
     }
   },
   "libraries": {
-    "SupplyChain.App.MDCSkuAssign/1.0.0": {
+    "SupplyChain.App.MDCSkuAssign/2.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
