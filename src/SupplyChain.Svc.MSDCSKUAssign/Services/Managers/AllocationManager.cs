@@ -70,11 +70,16 @@ namespace SupplyChain.Svc.MSDCSKUAssign.Services.Managers
             LogPerformance();
             if (_isPerformanceTestEnabled)
             {
-                contracts = _allocationRepository.GetContractsByAllocNum(allocationNumber).OrderByDescending(a => a.Quantity).ToList();
+       #if DEBUG
+                contracts = _allocationRepository.GetContractsByAllocNum(9806).OrderByDescending(a => a.Quantity).ToList();
+#else
+                 contracts = _allocationRepository.GetContractsByAllocNum(allocationNumber).OrderByDescending(a => a.Quantity).ToList();
+#endif
                 LogPerformance();
             }
-
-            foreach (var skuGroup in skuGroups)
+       
+           // Parallel.ForEach(skuGroups, skuGroup =>
+           foreach (var skuGroup in skuGroups)
             {
                 var skuHeader = skuGroup.First();
 
@@ -107,6 +112,7 @@ namespace SupplyChain.Svc.MSDCSKUAssign.Services.Managers
 
                             _log.LogInformation($"Selecting warehouse {a.Warehouse} for SKU {a.Sku} and store {a.Store} and allocation Qty {a.Quantity}.");
 
+                            ///Look into it for threading
                             allocations.Add(a);
                         }
                         else
@@ -247,9 +253,9 @@ namespace SupplyChain.Svc.MSDCSKUAssign.Services.Managers
             return IsOffsiteDailyUpdated();
         }
 
-        #endregion
+#endregion
 
-        #region PrivateMethods
+#region PrivateMethods
 
         private void LogPerformance()
         {
@@ -314,6 +320,6 @@ namespace SupplyChain.Svc.MSDCSKUAssign.Services.Managers
 
             }
         }
-        #endregion
+#endregion
     }
 }
